@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Electrical safety tips, how-to guides, and resources for Pasadena CA homeowners and businesses. Brought to you by Pasadena Electrician Guys." />
+  <meta name="robots" content="index, follow" />
+  <title>Electrical Resources &amp; Tips | Pasadena Electrician Guys</title>
+  <link rel="canonical" href="https://www.pasadenaelectricianguys.com/resources/" />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Pasadena Electrician Guys" />
+  <meta property="og:title" content="Electrical Resources &amp; Tips | Pasadena Electrician Guys" />
+  <meta property="og:description" content="Safety tips, maintenance guides, and electrical resources for Pasadena homeowners." />
+  <meta property="og:url" content="https://www.pasadenaelectricianguys.com/resources/" />
+  <meta property="og:image" content="https://www.pasadenaelectricianguys.com/images/hero-main.webp" />
+  <meta name="theme-color" content="#f5a623" />
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.pasadenaelectricianguys.com/"},
+      {"@type": "ListItem", "position": 2, "name": "Resources", "item": "https://www.pasadenaelectricianguys.com/resources/"}
+    ]
+  }
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --yellow: #f5a623; --yellow-dark: #d4861a; --navy: #1a2340; --navy-light: #233058;
+      --gray: #f5f7fa; --text: #1c1c1e; --muted: #6b7280; --white: #ffffff;
+      --radius: 8px; --shadow: 0 4px 24px rgba(0,0,0,0.10);
+    }
+    html { scroll-behavior: smooth; }
+    body { font-family: 'Inter', sans-serif; color: var(--text); background: var(--white); line-height: 1.6; }
+
+    .topbar { background: var(--navy); color: var(--white); text-align: center; padding: 10px 20px; font-size: 0.875rem; }
+    .topbar a { color: var(--yellow); text-decoration: none; font-weight: 600; }
+
+    header { background: var(--white); box-shadow: 0 2px 12px rgba(0,0,0,0.08); position: sticky; top: 0; z-index: 100; }
+    .header-inner { max-width: 1100px; margin: 0 auto; padding: 16px 24px; display: flex; align-items: center; justify-content: space-between; gap: 16px; flex-wrap: wrap; }
+    .logo { display: flex; align-items: center; gap: 12px; text-decoration: none; }
+    .logo-text strong { display: block; font-size: 1.05rem; font-weight: 800; color: var(--navy); }
+    .logo-text span { font-size: 0.78rem; color: var(--muted); font-weight: 500; }
+    nav { display: flex; align-items: center; gap: 24px; }
+    nav a { text-decoration: none; color: var(--text); font-weight: 500; font-size: 0.9rem; transition: color .2s; }
+    nav a:hover, nav a.active { color: var(--yellow-dark); }
+    .btn-call { background: var(--yellow); color: var(--navy); padding: 10px 22px; border-radius: var(--radius); font-weight: 700; font-size: 0.9rem; text-decoration: none; white-space: nowrap; }
+    .btn-call:hover { background: var(--yellow-dark); }
+    .hamburger { display: none; background: none; border: none; font-size: 1.6rem; color: var(--navy); cursor: pointer; padding: 4px 8px; line-height: 1; }
+    @media (max-width: 768px) {
+      .header-inner { position: relative; }
+      nav { display: none; position: absolute; top: 100%; left: 0; right: 0; background: var(--white); flex-direction: column; align-items: stretch; gap: 0; box-shadow: 0 8px 20px rgba(0,0,0,0.12); padding: 8px 24px; z-index: 99; }
+      nav.open { display: flex; }
+      nav a { padding: 14px 0; border-bottom: 1px solid #eee; }
+      .btn-call { display: none; }
+      .hamburger { display: block; }
+    }
+
+    .page-hero {
+      background: linear-gradient(135deg, rgba(26,35,64,0.88) 0%, rgba(35,48,88,0.82) 100%),
+                  url('../images/wiring-work.jpg') center/cover no-repeat;
+      color: var(--white); padding: 72px 24px; text-align: center;
+    }
+    .page-hero h1 { font-size: clamp(1.8rem, 4vw, 2.8rem); font-weight: 800; margin-bottom: 12px; }
+    .page-hero p { color: rgba(255,255,255,0.75); font-size: 1rem; max-width: 520px; margin: 0 auto; }
+    .breadcrumb { font-size: 0.82rem; color: rgba(255,255,255,0.5); margin-bottom: 14px; }
+    .breadcrumb a { color: var(--yellow); text-decoration: none; }
+
+    .content { max-width: 1100px; margin: 0 auto; padding: 64px 24px; }
+    .section-label { font-size: 0.78rem; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; color: var(--yellow-dark); margin-bottom: 10px; }
+    .section-title { font-size: clamp(1.5rem, 3vw, 2.2rem); font-weight: 800; color: var(--navy); margin-bottom: 12px; line-height: 1.2; }
+    .section-sub { color: var(--muted); max-width: 640px; margin-bottom: 48px; font-size: 1rem; }
+
+    .tips-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 24px; margin-bottom: 56px; }
+    .tip-card { background: var(--gray); border-radius: 12px; padding: 28px 24px; border-top: 4px solid var(--yellow); }
+    .tip-card h3 { font-size: 1rem; font-weight: 700; color: var(--navy); margin-bottom: 10px; }
+    .tip-card p { font-size: 0.88rem; color: var(--muted); line-height: 1.7; }
+
+    .warning-box { background: #fff8e6; border: 2px solid var(--yellow); border-radius: 12px; padding: 28px 32px; margin: 48px 0; }
+    .warning-box h3 { color: var(--navy); font-size: 1.1rem; font-weight: 800; margin-bottom: 10px; }
+    .warning-box p { color: #5c4a00; font-size: 0.92rem; line-height: 1.7; }
+
+    .faq-list { margin-top: 48px; }
+    .faq-item { border-bottom: 1px solid #e5e7eb; padding: 24px 0; }
+    .faq-item:first-child { border-top: 1px solid #e5e7eb; }
+    .faq-q { font-size: 1rem; font-weight: 700; color: var(--navy); margin-bottom: 10px; }
+    .faq-a { font-size: 0.9rem; color: var(--muted); line-height: 1.75; }
+
+    .cta-bar { background: var(--navy); border-radius: 14px; padding: 40px 36px; text-align: center; color: var(--white); margin-top: 64px; }
+    .cta-bar h2 { font-size: 1.7rem; font-weight: 800; margin-bottom: 10px; }
+    .cta-bar p { color: rgba(255,255,255,0.70); margin-bottom: 28px; }
+    .cta-bar a { background: var(--yellow); color: var(--navy); padding: 14px 32px; border-radius: var(--radius); font-weight: 700; text-decoration: none; font-size: 1rem; display: inline-block; margin: 4px; }
+    .cta-bar a:hover { background: var(--yellow-dark); }
+    .cta-bar a.outline { background: transparent; border: 2px solid rgba(255,255,255,0.4); color: #fff; }
+
+    .mobile-call-btn { display: none; position: fixed; bottom: 0; left: 0; right: 0; z-index: 200; background: var(--yellow); color: var(--navy); text-align: center; padding: 16px; font-weight: 800; font-size: 1.1rem; box-shadow: 0 -4px 16px rgba(0,0,0,0.2); text-decoration: none; }
+    @media (max-width: 768px) { .mobile-call-btn { display: block; } body { padding-bottom: 58px; } }
+
+    footer { background: #0f1626; color: rgba(255,255,255,0.6); text-align: center; padding: 32px 24px; font-size: 0.85rem; }
+    footer a { color: var(--yellow); text-decoration: none; }
+    footer strong { color: var(--white); }
+  </style>
+</head>
+<body>
+
+<div class="topbar">
+  ⚡ CSLB Licensed &amp; Insured — 24/7 Emergency Service — <a href="tel:6265612717">626-561-2717</a>
+</div>
+
+<header>
+  <div class="header-inner">
+    <a href="../" class="logo">
+      <div class="logo-text">
+        <strong>Pasadena Electrician Guys</strong>
+        <span>Licensed &amp; Insured · Pasadena, CA</span>
+      </div>
+    </a>
+    <nav>
+      <a href="../">Home</a>
+      <a href="../about/">About Us</a>
+      <a href="../services/">Our Services</a>
+      <a href="../#contact">Contact Us</a>
+    </nav>
+    <a href="tel:6265612717" class="btn-call">📞 626-561-2717</a>
+    <button class="hamburger" aria-label="Toggle menu" aria-expanded="false">☰</button>
+  </div>
+</header>
+
+<div class="page-hero">
+  <div class="breadcrumb"><a href="../">Home</a> / Resources</div>
+  <h1>Electrical Tips &amp; Resources</h1>
+  <p>Helpful guides for Pasadena homeowners and business owners — know when to DIY and when to call a pro.</p>
+</div>
+
+<div class="content">
+
+  <div class="section-label">Home Safety</div>
+  <div class="section-title">Electrical Safety Tips Every Homeowner Should Know</div>
+  <p class="section-sub">These simple habits can prevent fires, electrical shocks, and costly repairs down the road.</p>
+
+  <div class="tips-grid">
+    <div class="tip-card">
+      <h3>⚡ Don't Overload Outlets</h3>
+      <p>Plugging too many devices into one outlet or power strip can trip breakers or — worse — start a fire. Use surge protectors with built-in circuit breakers, and avoid daisy-chaining extension cords.</p>
+    </div>
+    <div class="tip-card">
+      <h3>🔌 Test Your GFCI Outlets Monthly</h3>
+      <p>GFCI outlets (the ones with TEST/RESET buttons in kitchens and bathrooms) protect against shock near water. Press TEST once a month and click RESET to confirm they're working.</p>
+    </div>
+    <div class="tip-card">
+      <h3>💡 Replace Flickering Lights Promptly</h3>
+      <p>Flickering lights that persist after changing the bulb often signal a loose connection or wiring issue. Don't ignore it — call an electrician before it becomes a bigger problem.</p>
+    </div>
+    <div class="tip-card">
+      <h3>🧯 Know Where Your Circuit Breaker Is</h3>
+      <p>Make sure everyone in your household knows the location of your electrical panel and how to safely reset a tripped breaker. Label each breaker clearly for emergencies.</p>
+    </div>
+    <div class="tip-card">
+      <h3>🌧️ Keep Water Away From Electricity</h3>
+      <p>Never use electrical appliances near water. In outdoor areas, use weatherproof outlets with GFCI protection. If a device gets wet, unplug it and let it dry completely before using it again.</p>
+    </div>
+    <div class="tip-card">
+      <h3>🔧 Schedule an Electrical Inspection</h3>
+      <p>Homes older than 25 years — especially in Pasadena's older neighborhoods — may have outdated wiring. A licensed electrician can spot hazards before they become emergencies.</p>
+    </div>
+  </div>
+
+  <div class="warning-box">
+    <h3>⚠️ When to Call an Electrician Immediately</h3>
+    <p>If you notice burning smells from outlets or switches, discolored or warm switch plates, circuit breakers that trip repeatedly, sparks when plugging in devices, or buzzing sounds from walls — stop using the affected circuits and call us right away at <strong>626-561-2717</strong>. These are signs of potentially dangerous conditions that need immediate professional attention.</p>
+  </div>
+
+  <div>
+    <div class="section-label">Common Questions</div>
+    <div class="section-title">Frequently Asked Questions</div>
+    <div class="faq-list">
+      <div class="faq-item">
+        <div class="faq-q">How do I know if my electrical panel needs to be upgraded?</div>
+        <div class="faq-a">Signs your panel may need upgrading include frequent tripped breakers, a panel rated under 100 amps, a Federal Pacific or Zinsco panel (both known safety hazards), or plans to add a major appliance like an EV charger or hot tub. We can assess your panel over the phone or with a quick on-site visit.</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q">Do I need a permit for electrical work in Pasadena?</div>
+        <div class="faq-a">Most significant electrical work — panel upgrades, new circuits, major rewiring — requires a permit from the City of Pasadena. We handle the permit process for you. Permit requirements protect you as a homeowner, and unpermitted work can create problems when selling your home.</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q">What is a CSLB license and why does it matter?</div>
+        <div class="faq-a">CSLB stands for California Contractors State License Board. A C-10 Electrical Contractor license (issued by the CSLB) means the electrician has passed background and competency checks, carries required insurance, and is legally authorized to perform electrical work in California. Always verify your electrician is CSLB licensed before hiring.</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q">How much does an electrical panel upgrade cost?</div>
+        <div class="faq-a">Costs vary depending on amperage (100A vs. 200A), existing wiring condition, and permit fees. Most residential panel upgrades in the Pasadena area fall in the $1,500–$3,500 range. Call us at 626-561-2717 for a free phone estimate — we're upfront about pricing with no hidden fees.</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q">Can you install an EV charger at my home?</div>
+        <div class="faq-a">Yes — we install Level 2 EV chargers (240V) for all major brands including Tesla, ChargePoint, JuiceBox, and others. Most homes in Pasadena can accommodate a Level 2 charger with a dedicated 50A circuit added to the existing panel. We handle all permits required by the City of Pasadena.</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q">Do you offer emergency electrical service?</div>
+        <div class="faq-a">Yes. We offer 24/7 emergency electrical service throughout Pasadena and the surrounding San Gabriel Valley cities. If you have a power outage, burning smell, sparking outlet, or any other electrical emergency, call us immediately at 626-561-2717.</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="cta-bar">
+    <h2>Still Have Questions?</h2>
+    <p>Call us — for many jobs we can give you an estimate right over the phone, no appointment needed.</p>
+    <a href="tel:6265612717">📞 Call 626-561-2717</a>
+    <a href="../#contact" class="outline">Send a Message</a>
+  </div>
+
+</div>
+
+<footer>
+  <p><strong>Pasadena Electrician Guys</strong> &nbsp;|&nbsp; 945 N Michillinda Ave, Pasadena, CA 91107</p>
+  <p style="margin-top:8px">
+    <a href="tel:6265612717">626-561-2717</a> &nbsp;·&nbsp;
+    <a href="../">Home</a> &nbsp;·&nbsp;
+    <a href="../services/">Services</a> &nbsp;·&nbsp;
+    <a href="../privacy-policy/">Privacy Policy</a>
+  </p>
+  <p style="margin-top:12px; font-size:0.78rem; opacity:.6;">© 2026 Pasadena Electrician Guys. All rights reserved.</p>
+</footer>
+
+<a href="tel:6265612717" class="mobile-call-btn">Call Now — 626-561-2717</a>
+
+<script>
+  (function () {
+    var hb = document.querySelector(".hamburger");
+    var nv = document.querySelector("nav");
+    if (!hb || !nv) return;
+    hb.addEventListener("click", function () {
+      var open = nv.classList.toggle("open");
+      hb.setAttribute("aria-expanded", open);
+    });
+    nv.querySelectorAll("a").forEach(function (a) {
+      a.addEventListener("click", function () {
+        nv.classList.remove("open");
+        hb.setAttribute("aria-expanded", "false");
+      });
+    });
+  })();
+</script>
+</body>
+</html>
