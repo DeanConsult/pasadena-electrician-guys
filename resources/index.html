@@ -222,7 +222,7 @@
     <a href="../services/">Services</a> &nbsp;·&nbsp;
     <a href="../privacy-policy/">Privacy Policy</a>
   </p>
-  <p style="margin-top:12px; font-size:0.78rem; opacity:.6;">© 2026 Pasadena Electrician Guys. All rights reserved.</p>
+  <p style="margin-top:12px; font-size:0.78rem; opacity:.6;">© <span id="yr"></span> Pasadena Electrician Guys. All rights reserved.</p>
 </footer>
 
 <a href="tel:6265612717" class="mobile-call-btn">Call Now — 626-561-2717</a>
@@ -243,6 +243,7 @@
       });
     });
   })();
+  document.getElementById("yr").textContent = new Date().getFullYear();
 </script>
 </body>
 </html>
